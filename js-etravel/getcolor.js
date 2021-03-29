@@ -1,5 +1,7 @@
 function addClass(color) {
   document.querySelector(".order-color").classList.add(color);
+    document.querySelector(".svgcolor").classList.add(color);
+
   //document.querySelector("changer le selecteur").classList.add(color-light);
 
   //La fonction cible la classe .order-color puis ajoute la classe .color a .order-color qui est parametrée dynamiquement avec le contenu de la variable bgColor//
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const urlCheck = urlParams.has("background-color");
   /*verification si le parametre existe via .has qui renvoie un booléen (true, false)*/
 
-  let bgColor = "red";
+  let bgColor = "pink";
   /*initialisation de la variable pour sortir la valeur de background-color du bloc if (valeur par defaut pink)*/
 
   if (urlCheck) {

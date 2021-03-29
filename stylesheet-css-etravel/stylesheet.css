@@ -39,6 +39,7 @@ font-face {
 }
 
 .purple {
+
     background-color: #C9B4FC;
     fill: #C9B4FC;
 }
@@ -76,6 +77,7 @@ font-face {
 .black {
     background-color: #999999;
     fill: #999999;
+
 }
 
 .filler {
@@ -109,7 +111,11 @@ header img {
     transform: translate(-50%, 15%);
 }
 
-header html {
+header img img {
+    border-style: none;
+}
+header img html {
+
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
@@ -185,12 +191,14 @@ nav.coolwatermark {
 .active span:before {
     transform: rotate(45deg) translate(10px, 10px);
     background: #FDF5E8;
+
 }
 
 .active span:after {
     transform: rotate(-45deg) translate(10px, -10px);
     width: 50px;
     background: #FDF5E8;
+
 }
 
 .full-nav-close {
@@ -228,7 +236,9 @@ nav.coolwatermark {
 }
 
 #full-nav:after {
+
     background-image: url("../ressources-etravel/bg-stardust-small.png");
+
     content: '';
     position: fixed;
     opacity: 1;
@@ -261,6 +271,7 @@ nav.coolwatermark {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+
     color: #FDF5E8;
     font-size: 2rem;
     font-weight: normal;
@@ -1035,11 +1046,14 @@ main h3 {
 .curve-product {
     text-align: center;
     display: block;
+
     margin: -4.2% auto;
+
     width: 100%;
     position: relative;
     transform: translateY(49%);
 }
+
 
 .curve-product svg {
     width: 45%;

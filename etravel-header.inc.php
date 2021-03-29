@@ -12,19 +12,20 @@
 <html lang="en">
 
 <head>
+
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etravel</title>
+<script src="https://kit.fontawesome.com/7ee3d41dde.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet-css-etravel/normalize.css">
   <link rel="stylesheet" href="stylesheet-css-etravel/stylesheet.css">
-  <link rel="stylesheet" href="stylesheet-css-etravel/fontawesome/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <!--<link rel="stylesheet" href="stylesheet-css-etravel/fontawesome/css/all.css">-->
 </head>
 
 <body>
   <header>
-    <img src="ressources-etravel/etravel-logo.png" alt="logo">
+  <img src="ressources-etravel/etravel-logo.png" alt="logo" id="imgclkchange">
 
       <a class="full-nav-trigger" href="#">
         <span>

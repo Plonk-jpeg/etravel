@@ -73,7 +73,12 @@
     </div>
     </div>
     <div class="curve-product">
-      <img src="ressources-etravel/curve-pink.svg" alt="">
+      <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 731.988 132.611" enable-background="new 0 0 731.988 132.611" xml:space="preserve">
+      <rect x="6774.494" y="-1043" display="none" fill="#FFFFFF" width="527" height="244"/>
+      <path class="svgcolor" d="M731.988,132.602c0,0-94.994-2.58-194.025-69.561c0,0-86.214-63.041-171.891-63.041h-0.156
+      	c-85.677,0-171.891,63.041-171.891,63.041C94.994,130.021,0,132.612,0,132.612L731.988,132.602z"/>
+      </svg>
+
     </div>
 
     <div class="child">
